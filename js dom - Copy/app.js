@@ -1,0 +1,13 @@
+// // const taskTitle=document.getElementById('task-title');
+// // taskTitle.style.color='black';
+// // taskTitle.style.padding='5px';
+// // taskTitle.textContent='Task List';
+// // console.log(document.querySelector('#task-title'));
+// // console.log(document.querySelector('.card-title'));
+// // console.log(document.querySelector('.h5'));
+// document.querySelector('li').style.color='red';
+// document.querySelector('ul li').style.color='blue';
+// document.querySelector('li:last-child').style.color='green';
+const item=document.getElementsByClassName('collection-item');
+console.log(item);
+item[0].style.color='red';
